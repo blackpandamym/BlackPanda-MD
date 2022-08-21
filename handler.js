@@ -375,7 +375,7 @@ export async function handler(chatUpdate) {
                     for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                            m.reply(`*[ ⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid)
+                            m.reply(`*⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️*\n\n* 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n* 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n* 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n* 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*❗𝙿𝚊𝚛𝚊 𝚛𝚎𝚙𝚘𝚛𝚝𝚊𝚛 𝚊𝚕𝚐𝚞n 𝚏𝚊𝚕𝚕𝚘 𝚍𝚎𝚕 𝚋𝚘𝚝 𝚞𝚜𝚎 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 #reporte*`.trim(), data.jid)
                     }
                 }
             }
@@ -496,11 +496,11 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎 ❗] 𝚂𝚄𝚂 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂 𝚂𝙴 𝙷𝙰𝙽 𝙰𝙶𝙾𝚃𝙰𝙳𝙾, 𝙿𝙴𝚁𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝚅𝙾𝙻𝚅𝙴𝚁 𝙰 𝙼𝙸𝙽𝙰𝚁 𝙿𝙰𝚁𝙰 𝙾𝙱𝚃𝙴𝙽𝙴𝚁 𝙼Á𝚂 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂  ${usedPrefix}buy o buy2 <cantidad>  minar`, m)
+                    this.reply(m.chat, `*❗𝐈𝐍𝐅𝐎 ❗ 𝘈𝘭 𝘱𝘢𝘳𝘦𝘤𝘦𝘳 𝘵𝘦 𝘢𝘴 𝘲𝘶𝘦𝘥𝘢𝘥𝘰 𝘴𝘪𝘯 𝘥𝘪𝘢𝘮𝘢𝘯𝘵𝘦𝘴, 𝘰𝘦𝘳𝘰 𝘴𝘪 𝘲𝘶𝘪𝘦𝘳𝘦𝘴 𝘱𝘶𝘦𝘥𝘦𝘴 𝘮𝘪𝘯𝘢𝘳  ${usedPrefix}buy o buy2 <cantidad>  minar`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎 ❗] 𝚂𝙴 𝚁𝙴𝚀𝚄𝙸𝙴𝚁𝙴 𝙴𝙻 𝙽𝙸𝚅𝙴𝙻 ${plugin.level} 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾. 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻 𝙴𝚂 ${_user.level}*`, m)
+                    this.reply(m.chat, `*❗𝐈𝐍𝐅𝐎 ❗ 𝚂𝙴 𝚁𝙴𝚀𝚄𝙸𝙴𝚁𝙴 𝙴𝙻 𝙽𝙸𝚅𝙴𝙻 ${plugin.level} 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾. 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻 𝙴𝚂 ${_user.level}*`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
@@ -542,7 +542,7 @@ export async function handler(chatUpdate) {
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
-                                    m.reply(`*[ ⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${m.plugin}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid)
+                                    m.reply(`*⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️*\n\n*𝙿𝙻𝚄𝙶𝙸𝙽:* ${m.plugin}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid)
                             }
                         m.reply(text)
                     }
@@ -614,8 +614,8 @@ export async function handler(chatUpdate) {
         if (opts['autoread'])
             await this.readMessages([m.key])
         
-        if (!m.fromMem && m.text.match(/(Bruno Sobrino|@5219996125657|bot|mystic|the mystic - bot|mystic - bot|themystic-bot)/gi)) {
-        let emot = pickRandom(["🎃", "❤", "😘", "😍", "💕", "😎", "🙌", "⭐", "👻", "🔥"])
+        if (!m.fromMem && m.text.match(/(Panda Bot|@56998636785|bot|Panda|Panda  - bot|panda - bot|Pandita-Bot)/gi)) {
+        let emot = pickRandom(["🎃", "❤", "😘", "😍", "💕", "😎", "🙌", "⭐", "👻", "🔥", "🥺", "🥰", "😢", "😀"])
         this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
         function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
         this.sendPresenceUpdate('recording', m.chat)       
@@ -668,29 +668,7 @@ const buttons = [
 {buttonId: `#menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, ]
 let buttonMessage = {
 document: imagen3, 
-fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
-mimetype: `application/${document}`,
-jpegThumbnail: imagen3,
-caption: text,
-fileLength: "99999999999999",
-mentions: [user],
-footer: groupMetadata.subject,
-buttons: buttons,
-headerType: 4,   
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': true,
-"mentionedJid": [user],
-"externalAdReply": {
-"showAdAttribution": false,
-"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
-"mediaType": 2, 
-"previewType": "VIDEO",
-"thumbnail": apii.data,
-"mediaUrl": 'https://youtu.be/HoxZuQokeMM',
-"sourceUrl": 'https://www.pornhub.com' }}} 
-this.sendMessage(id, buttonMessage, fake)                          
-}}}
+   caption: text,
             break
         case 'promote':
         case 'daradmin':
