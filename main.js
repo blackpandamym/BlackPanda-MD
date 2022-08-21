@@ -145,9 +145,8 @@ conn.spromote = '「@user」─\nA̳h̳o̳r̳a̳ ̳s̳e̳ ̳v̳o̳l̳v̳i̳o̳ �
 conn.sdemote = '「@user」─\nA̳s̳ ̳d̳e̳j̳a̳d̳o̳ ̳d̳e̳ ̳a̳d̳m̳i̳n̳s̳ ̳d̳e̳ ̳e̳s̳t̳e̳ ̳g̳r̳u̳p̳o̳'
 conn.sSubject = '*𝔖𝔢 𝔠𝔞𝔪𝔟𝔦𝔬 𝔠𝔬𝔯𝔯𝔢𝔠𝔱𝔞𝔪𝔢𝔫𝔱𝔢 𝔢𝔩 𝔫𝔬𝔪𝔟𝔯𝔢 𝔡𝔢 𝔢𝔰𝔱𝔢 𝔤𝔯𝔲𝔭𝔬*\n*𝔑𝔲𝔢𝔳𝔬 𝔫𝔬𝔪𝔟𝔯𝔢:* @subject'
   conn.sDesc = '*𝔖𝔢 𝔠𝔞𝔪𝔟𝔦𝔬 𝔠𝔬𝔯𝔯𝔢𝔠𝔱𝔞𝔪𝔢𝔫𝔱𝔢 𝔩𝔞 𝔡𝔢𝔰𝔠𝔯𝔦𝔭𝔠𝔦𝔬𝔫 𝔡𝔢𝔩 𝔤𝔯𝔲𝔭𝔬*\n𝔑𝔲𝔢𝔳𝔞 𝔯𝔢𝔤𝔩𝔞𝔰:* @desc'
-  conn.sSubject = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n├❏➤͜͡*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject\n└────ׂ─ׂ─ׂ─ׂ───'
-  conn.sIcon = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n└────ׂ─ׂ─ׂ─ׂ───'
-  conn.sRevoke = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n├❏➤͜͡*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke\n└────ׂ─ׂ─ׂ─ׂ───'
+  conn.sIcon = '𝔖𝔢 𝔠𝔞𝔪𝔟𝔦𝔬 𝔠𝔬𝔯𝔯𝔢𝔠𝔱𝔞𝔪𝔢𝔫𝔱𝔢 𝔩𝔞 𝔣𝔬𝔱𝔬 𝔡𝔢 𝔭𝔢𝔯𝔣𝔦𝔩 @user'
+  conn.sRevoke = '*𝔖𝔢 𝔠𝔞𝔪𝔟𝔦𝔬 𝔢𝔩 𝔢𝔫𝔩𝔞𝔠𝔢 𝔡𝔢 𝔤𝔯𝔲𝔭𝔬 𝔠𝔬𝔯𝔯𝔢𝔠𝔱𝔞𝔪𝔢𝔫𝔱𝔢!*\n├❏➤͜͡*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke\n└────ׂ─ׂ─ׂ─ׂ───'
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
