@@ -668,7 +668,29 @@ const buttons = [
 {buttonId: `#menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, ]
 let buttonMessage = {
 document: imagen3, 
-   caption: text,
+   fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
+mimetype: `application/${document}`,
+jpegThumbnail: imagen3,
+caption: text,
+fileLength: "99999999999999",
+mentions: [user],
+footer: groupMetadata.subject,
+buttons: buttons,
+headerType: 4,   
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': true,
+"mentionedJid": [user],
+"externalAdReply": {
+"showAdAttribution": false,
+"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
+"mediaType": 2, 
+"previewType": "VIDEO",
+"thumbnail": apii.data,
+"mediaUrl": 'https://youtu.be/HoxZuQokeMM',
+"sourceUrl": 'https://www.pornhub.com' }}} 
+this.sendMessage(id, buttonMessage, fake)                          
+}}}
             break
         case 'promote':
         case 'daradmin':
