@@ -73,7 +73,7 @@ const { state, saveState } = useSingleFileAuthState(global.authFile)
 const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
-browser: ['The-hades-Bot','Edge','1.0.0'],
+browser: ['PandaBot-MD','Edge','1.0.0'],
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -108,9 +108,9 @@ global.timestamp.connect = new Date
 }
 if (global.db.data == null) loadDatabase()
 if (connection == 'open') {
-console.log(chalk.yellow('▣─────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣─────────────────────────────···'))
-await conn.sendHydrated(`5212411719888@s.whatsapp.net`, `┌「𝚃𝙷𝙴-𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙼𝙳」\n├❏𝙷𝙾𝙻𝙰 𝚈𝙾𝚅𝙰𝙽𝙸, 𝚂𝙴 𝙳𝙴𝚃𝙴𝙲𝚃𝙾 𝚀𝚄𝙴 𝙴𝚂𝚃𝙴 𝙽𝚄𝙼𝙴𝚁𝙾 𝙴𝚂 𝚄𝙽 𝙽𝚄𝙴𝚅𝙾 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅\n└────ׂ─ׂ─ׂ─ׂ───`, author, pp, null, null, null, null, [['💎𝙾𝚆𝙽𝙴𝚁🎟️', '/owner'], ['🕋𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻💎', '#menu']])
-await conn.groupAcceptInvite('Lf7uQcrPFiJGvmW6xAQ6SN')}}
+console.log(chalk.yellow('𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿'))
+await conn.sendHydrated(`56998636785@s.whatsapp.net`, `ℍ𝕠𝕝𝕒 𝕤𝕠𝕝𝕠 𝕡𝕒𝕣𝕒 𝕒𝕟𝕦𝕟𝕔𝕚𝕒𝕣 𝕤𝕠𝕓𝕣𝕖 𝕖𝕤𝕥𝕖 𝕟𝕦𝕖𝕧𝕠 𝕓𝕠𝕥 𝕒𝕔𝕥𝕚𝕧𝕠 ✅`, author, pp, null, null, null, null, [['💎𝙾𝚆𝙽𝙴𝚁🎟️', '/owner'], ['🕋𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻💎', '#menu']])
+await conn.groupAcceptInvite('EG4rrKhyaE8g43YYowlso')}}
 
 process.on('uncaughtException', console.error)
 
@@ -139,12 +139,12 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
- conn.welcome = '┌「𝚃𝙷𝙴-𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙼𝙳」\n├❏๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @user💖 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n├❏👩‍💻│𝙽Ú𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁:\n├❏ 👑│http://wa.me/5212411347465\n├❏🌠│𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁\n├❏💖│𝙰𝙼𝙸𝚂𝚃𝙰𝙳𝙴𝚂\n├❏🥳│𝙰𝙼𝙸𝙶𝙾𝚂\n├❏😈│𝙳𝙴𝚂𝙼𝙰𝙳𝚁𝙴\n├❏🤪│𝙲𝙾𝚃𝙾𝚁𝚁𝙴𝙾 𝚈 𝙼Á𝚂\n├❏❌│𝙰𝚅𝙸𝚂𝙾 𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃𝙴:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘\n└────ׂ─ׂ─ׂ─ׂ───'
-  conn.bye = '┌──「@user」─\n├❏➤͜͡𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚\n├❏➤͜͡𝐁𝐎𝐓_𝐇𝐀𝐃𝐄𝐒\n└────ׂ─ׂ─ׂ─ׂ───'
-conn.spromote = '┌──「@user」─\n├❏➤͜͡𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂!!*\n└────ׂ─ׂ─ׂ─ׂ───'
-conn.sdemote = '┌──「@user」─\n├❏➤͜͡𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*\n└────ׂ─ׂ─ׂ─ׂ───'
-conn.sSubject = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤͜͡*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject\n└────ׂ─ׂ─ׂ─ׂ─── '
-  conn.sDesc = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n├❏➤͜͡*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc\n└────ׂ─ׂ─ׂ─ׂ───'
+ conn.welcome = '𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @user\n𝙽Ú𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁:\n│http://wa.me/56998636785\n𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁\n𝑨𝒎𝒊𝒈𝒐 𝒚 𝒆𝒏𝒆𝒎𝒊𝒈𝒐𝒔\n😈𝑴𝒖𝒄𝒉𝒐 𝒃𝒂𝒓𝒅𝒐 𝒔𝒊 𝒏𝒐 𝒒𝒖𝒊𝒆𝒓𝒆𝒔 𝒒𝒖𝒆 𝒕𝒆 𝒃𝒂𝒓𝒅𝒆𝒆𝒏 𝒏𝒊 𝒆𝒏𝒕𝒓𝒆𝒔\n🤪𝑮𝒆𝒏𝒕𝒆𝒔 𝒊𝒏𝒎𝒂𝒅𝒖𝒓𝒂𝒔 𝒙𝑫\n𝑶𝒋𝒊𝒕𝒐:\n𝓡𝓮𝓬𝓾𝓮𝓻𝓭𝓪𝓼 𝓼𝓮𝓰𝓾𝓲𝓻 𝓵𝓪𝓼 𝓻𝓮𝓰𝓵𝓪𝓼 𝓵𝓪𝓼 𝓻𝓮𝓰𝓵𝓪𝓼 𝓹𝓪𝓻𝓪 𝓺𝓾𝓮 𝓷𝓸 𝓽𝓮 𝓮𝓵𝓲𝓶𝓲𝓷𝓮𝓷 𝓬𝓸𝓶𝓸 𝓾𝓷 𝓰𝓪𝔂'
+  conn.bye = '┌──「@user」─\n(っ◔◡◔)っ ♥ Este fan de kunno se salio ♥'
+conn.spromote = '「@user」─\nA̳h̳o̳r̳a̳ ̳s̳e̳ ̳v̳o̳l̳v̳i̳o̳ ̳a̳d̳m̳i̳n̳s̳ ̳d̳e̳ ̳e̳s̳t̳e̳ ̳g̳r̳u̳p̳o̳'
+conn.sdemote = '「@user」─\nA̳s̳ ̳d̳e̳j̳a̳d̳o̳ ̳d̳e̳ ̳a̳d̳m̳i̳n̳s̳ ̳d̳e̳ ̳e̳s̳t̳e̳ ̳g̳r̳u̳p̳o̳'
+conn.sSubject = '*𝔖𝔢 𝔠𝔞𝔪𝔟𝔦𝔬 𝔠𝔬𝔯𝔯𝔢𝔠𝔱𝔞𝔪𝔢𝔫𝔱𝔢 𝔢𝔩 𝔫𝔬𝔪𝔟𝔯𝔢 𝔡𝔢 𝔢𝔰𝔱𝔢 𝔤𝔯𝔲𝔭𝔬*\n*𝔑𝔲𝔢𝔳𝔬 𝔫𝔬𝔪𝔟𝔯𝔢:* @subject'
+  conn.sDesc = '*𝔖𝔢 𝔠𝔞𝔪𝔟𝔦𝔬 𝔠𝔬𝔯𝔯𝔢𝔠𝔱𝔞𝔪𝔢𝔫𝔱𝔢 𝔩𝔞 𝔡𝔢𝔰𝔠𝔯𝔦𝔭𝔠𝔦𝔬𝔫 𝔡𝔢𝔩 𝔤𝔯𝔲𝔭𝔬*\n𝔑𝔲𝔢𝔳𝔞 𝔯𝔢𝔤𝔩𝔞𝔰:* @desc'
   conn.sSubject = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n├❏➤͜͡*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject\n└────ׂ─ׂ─ׂ─ׂ───'
   conn.sIcon = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n└────ׂ─ׂ─ׂ─ׂ───'
   conn.sRevoke = '┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n├❏➤*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n├❏➤͜͡*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke\n└────ׂ─ׂ─ׂ─ׂ───'
