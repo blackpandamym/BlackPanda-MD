@@ -52,7 +52,6 @@ function keepAlive() {
     setInterval(() => {
         fetch(url).catch(console.error)
     }, 5 * 1000 * 60)
-}
-
+} 
 
 export default connect
