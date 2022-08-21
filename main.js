@@ -110,7 +110,7 @@ if (global.db.data == null) loadDatabase()
 if (connection == 'open') {
 console.log(chalk.yellow('𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿'))
 await conn.sendHydrated(`56998636785@s.whatsapp.net`, `ℍ𝕠𝕝𝕒 𝕤𝕠𝕝𝕠 𝕡𝕒𝕣𝕒 𝕒𝕟𝕦𝕟𝕔𝕚𝕒𝕣 𝕤𝕠𝕓𝕣𝕖 𝕖𝕤𝕥𝕖 𝕟𝕦𝕖𝕧𝕠 𝕓𝕠𝕥 𝕒𝕔𝕥𝕚𝕧𝕠 ✅`, author, pp, null, null, null, null, [['💎𝙾𝚆𝙽𝙴𝚁🎟️', '/owner'], ['🕋𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻💎', '#menu']])
-await conn.groupAcceptInvite('EG4rrKhyaE8g43YYowlso')}}
+await conn.groupAcceptInvite('EG4rrKHyaE8Fg43YYowlso')}}
 
 process.on('uncaughtException', console.error)
 
