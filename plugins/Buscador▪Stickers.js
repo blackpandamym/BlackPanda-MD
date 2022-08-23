@@ -12,7 +12,7 @@ let jsons = await json.json()
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let buttonMessage= {
-'document': { url: `https://github.com/Yovanihades1212/HADES-BOT-MDV2.git` },
+'document': { url: `https://github.com/blackpandamym/BlackPanda-MD.git` },
 'mimetype': `application/${document}`,
 'fileName': `⸽⃕𝚃𝚑𝚎 𝙷𝙰𝙳𝙴𝚂 𝙱𝙾𝚃 - MD🍁⃨፝⃕✰`,
 'fileLength': 99999999999999,
@@ -21,7 +21,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git',
+'mediaUrl': 'https://github.com/blackpandamym/BlackPanda-MD.git',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': `• Resultados Encontrados🔎`,
