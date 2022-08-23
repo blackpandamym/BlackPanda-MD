@@ -1,7 +1,7 @@
 {
-  "name": "Hadesbot-MD", 
+  "name": "Pandabot-MD", 
   "description": "Super Bot WhatsApp",
-  "repository": "Hades bot ",
+  "repository": "Panda-bot-MD",
   "logo": "https://i.imgur.com/AmzlKVi.jpeg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "buildpacks": [
